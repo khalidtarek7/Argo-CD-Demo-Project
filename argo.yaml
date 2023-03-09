@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/khalidtarek7/Nodejs-App.git
+    repoURL: https://github.com/khalidtarek7/Argo-CD-Demo-Project.git
     targetRevision: HEAD #Last Commit on github
-    path: Nodejs-App
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
